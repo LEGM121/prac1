@@ -16,7 +16,7 @@ public class ActividadLu2Application {
 
         @GetMapping("/saludar")
         public String contexto() {
-            return " la hora de empezar a programar cd/ci hoy---";
+            return " la hora de empezar a programar cd/ci hoy-";
         }
     }
 
