@@ -11,7 +11,7 @@ public class ActividadLu2Application {
     public class ActividadLabApplication {
         @GetMapping("/saludo")
         public String saludar() {
-            return "Bienvenido a la actividad";
+            return "Bienvenidos a la actividad";
         }
 
         @GetMapping("/saludar")
