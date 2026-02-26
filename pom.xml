@@ -49,7 +49,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-        <finalName>api-rest-world</finalName>
+        <finalName>api-rest-world-new</finalName>
 	</build>
 	<repositories>
 		<repository>
