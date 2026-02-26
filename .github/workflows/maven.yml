@@ -20,12 +20,12 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn clean install
-      
+      run: mvn clean install 
+       
     - name: Build & push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: practica/api-rest-world-image
+        image: luisgo121/api-rest-world-image
         tags: latest 
         registry: docker.io
         dockerfile: Dockerfile
