@@ -4,28 +4,31 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @RestController
+
+
 public class ActividadLu2Application {
 
-        @GetMapping("/saludo")
-        public String saludar() {
+    @GetMapping("/saludo")
+    public String saludar() {
 
-            return "Bienvenidos a la actividad";
-        }
-
-        @GetMapping("/saludar")
-        public String contexto() {
-
-            return " la hora de empezar a programar CD/CI llego";
-        }
+        return "Bienvenidos a la actividad";
     }
 
+    @GetMapping("/saludar")
+    public String contexto() {
 
-        public static void main(String[] args)
-        {
-            SpringApplication.run(ActividadLu2Application.class, args);
-        }
+        return " la hora de empezar a programar CD/CI llego";
+    }
+}
+
+
+public static void main(String[] args)
+{
+    SpringApplication.run(ActividadLu2Application.class, args);
+}
 
 
