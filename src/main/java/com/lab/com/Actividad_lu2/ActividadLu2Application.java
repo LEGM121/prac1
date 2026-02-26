@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @RestController
 public class ActividadLu2Application {
-    public class ActividadLabApplication {
+
         @GetMapping("/saludo")
         public String saludar() {
 
@@ -23,8 +23,9 @@ public class ActividadLu2Application {
     }
 
 
-        public static void main(String[] args) {
+        public static void main(String[] args)
+        {
             SpringApplication.run(ActividadLu2Application.class, args);
         }
 
-    }
+
