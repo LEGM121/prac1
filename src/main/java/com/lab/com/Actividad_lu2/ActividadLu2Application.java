@@ -16,7 +16,7 @@ public class ActividadLu2Application {
 
         @GetMapping("/saludos")
         public String saludarnos() {
-            return "llego la hora de empezar a programar cd/ci";
+            return " la hora de empezar a programar cd/ci";
         }
     }
 
